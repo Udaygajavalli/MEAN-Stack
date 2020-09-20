@@ -1,0 +1,162 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;  
+  background-color: #1d2d50;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 20px; 
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  transform: scale(1.2);
+}
+
+.bgborder{
+    margin: 15px;
+    border: 10px solid black;
+    border-radius: 25px;
+    background-image: url('https://www.skydivefingerlakes.com/images/article/skydiving-how-many-parachutes.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    padding: 30px;
+    font-size: 32px;
+}
+.bgborder h1{
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+/* welcome */
+
+.welcome{
+    display: inline-block;
+    margin: 20px;
+    height: 620px;
+    border: 15px solid lightblue;
+    border-radius: 50px 0px 100px 0px;
+}
+.star{
+    height: 80px;
+    width: 80px;
+}
+.star1{
+    position: relative;
+    top: 250px;
+    left: 80px;
+}
+.star2{
+    position: relative;
+    float: right;
+    bottom: 200px;
+    right: 80px;
+}
+.star3{
+    position: relative;
+    float: right;
+    bottom: 300px;
+}
+.star4{
+    position: relative;
+    float: right;
+    bottom: 400px;
+    left: 80px; 
+    
+}
+
+
+.welcome h1{
+    color: #1d2d50;
+    font-size: 8em;
+    text-align: center;
+}
+.tree{    
+    padding: 50px;
+    height: 600px;    
+}
+.treetext{
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.img{    
+    float: right;
+}
+
+.texture-bg{
+    background-image: url('https://bgfons.com/uploads/stucco/stucco_texture2042.jpg');
+    padding: 50px;
+    height: 550px;
+    font-size: 1.5em;
+}
+
+.text-bg{
+    background-color: #FAF0E6;
+    padding: 50px;
+    height: 550px;
+    font-size: 1.5em;
+}
+
+.text-bg h1{
+    background-color: #ADD9E6;
+}
+
+
+.borders{
+    margin: 50px;
+    border: 10px solid brown;
+}
+hr{
+    margin: 25px;
+    height: 5px;
+    color:lightslategray;
+    background-color:lightslategray;
+}
+
+.border1{
+    width: 50%;
+    margin: 15px auto;
+    padding: 8px;
+    background-color: #FFFEDF;
+    border: 7px solid #F2A97A;
+    border-style: dashed;
+}
+.border2{
+    width: 35%;
+    margin: 15px;
+    margin-left: 25px;
+    padding: 10px;
+    background-color: #DFFEFF;
+    border: 10px solid black;
+    border-width: 10px 0px 10px 0px;
+    border-style: double;
+}
+.border3{
+    width: 35%;
+    margin: 10px 50%;
+    padding: 10px;
+    background-color: #E2BC8B;
+    border: 10px solid #905744;
+    border-style: ridge;
+
+}
+
