@@ -1,9 +1,15 @@
-// const symbol = {
-//     yt: "Youtube",
-//     fb: "Facebook"
-// };
-// for (const n in symbol){
-//     console.log(symbol[n]);
-// }
-var uday = 10;
-console.log(this);
+var User = function(firstname, courseCount) {
+    this.firstname = firstname;
+    this.courseCount = courseCount;
+    this.getCourseCount = function () {
+        console.log(`Course count is: ${this.courseCount}`);
+    }    
+}
+
+User.prototype.getFirstname = function(){
+    console.log(`Your Firstname is: ${this.firstname}`);
+}
+
+var uday = new User("Uday",10);
+uday.getCourseCount();
+uday.getFirstname();
