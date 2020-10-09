@@ -17,7 +17,7 @@ function generateRandomJoke() {
   .catch();
 }
 
-const btn = document.querySelector("#generate");
+const btn = document.querySelector(".btn");
 btn.addEventListener("click", () =>{
   generateRandomJoke();
 })
